@@ -46,8 +46,12 @@ public class AddSchedule {
                 case 2:
                     task = new ReportTask("You will be fired!");
                     break;
-                default:
+                case 0:
                     exit = true;
+                    break;
+                default:
+                    System.out.println("Invalid choice");
+                    continue;
             }
 
             if (!exit) {
