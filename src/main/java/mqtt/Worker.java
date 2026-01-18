@@ -40,7 +40,7 @@ public class Worker {
             if (next != null) {
                 executeAtInstant =
                         next.getExecuteAt()
-                                .atZone(ZoneId.systemDefault()) // use local timezone
+                                .atZone(ZoneId.systemDefault())
                                 .toInstant();
             }
 

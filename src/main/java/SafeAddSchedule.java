@@ -31,7 +31,7 @@ public class SafeAddSchedule {
         System.out.println("Your role is: " + user.getRole());
 
         boolean exit = false;
-        SafeTaskProducer taskProducer = new SafeTaskProducer(); // handles MQTT publishing
+        SafeTaskProducer taskProducer = new SafeTaskProducer();
 
         do {
             System.out.println("\nChoose a task:");

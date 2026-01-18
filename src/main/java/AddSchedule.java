@@ -19,7 +19,7 @@ public class AddSchedule {
         String username = scanner.nextLine();
 
         System.out.print("Enter your password: ");
-        String passwd = scanner.nextLine(); // Reads an integer
+        String passwd = scanner.nextLine();
         User user = authService.authenticate(username, passwd);
 
         if (user == null) {
